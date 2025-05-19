@@ -50,6 +50,7 @@ require_once plugin_dir_path(__FILE__) . 'includes/boilerplate-register-gutenber
 require_once plugin_dir_path(__FILE__) . 'includes/boilerplate-render-main-page.php';
 require_once plugin_dir_path(__FILE__) . 'includes/boilerplate-render-sub-page.php';
 require_once plugin_dir_path(__FILE__) . 'includes/boilerplate-create-table.php';
+require_once plugin_dir_path(__FILE__) . 'includes/boilerplate-render-settings-page.php';
 
 new Boilerplate_Main();
 

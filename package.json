@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Boilerplate code for building Wordpress plugins",
   "dependencies": {
     "@wordpress/scripts": "^30.16.0"
   }

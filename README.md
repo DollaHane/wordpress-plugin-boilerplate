@@ -2,7 +2,7 @@
 
 Boilerplate code for building Wordpress plugins
 
-![Project Image](https://github.com/DollaHane/build-software-template/blob/main/components/Assets/Thumbnail.png)
+![Project Image](https://github.com/DollaHane/wordpress-plugin-boilerplate/blob/main/assets/Thumbnail.png)
 
 ## Features
 

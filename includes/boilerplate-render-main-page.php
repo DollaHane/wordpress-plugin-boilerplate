@@ -1,12 +1,6 @@
 <?php
 
 /**
- * 'title' => 'bail|required|string|min:5|max:255',
- * 'description' => 'required|string|min:5|max:255',
- * 'rental_cost' => 'required|numeric|min:5',
- */
-
-/**
  * Render the main form page and handle AJAX submissions
  */
 function boilerplate_render_main_page()

@@ -28,8 +28,17 @@ class Boilerplate_Main
             'Boilerplate Sub One',
             'Boilerplate Sub One',
             'manage_options',
-            'boilerplate_sub_page',
+            'boilerplate_sub_page_one',
             'boilerplate_render_sub_page'
+        );
+
+        add_submenu_page(
+            'boilerplate_main_page',
+            'Boilerplate Sub Two',
+            'Boilerplate Sub Two',
+            'manage_options',
+            'boilerplate_sub_page_two',
+            'boilerplate_render_from_laravel'
         );
 
         add_submenu_page(

@@ -4,6 +4,7 @@ function boilerplate_render_settings_page()
 {
 
   $user_api_key = get_option('my_boilerplate_api_key');
+  $user_email_key = get_option('my_boilerplate_user_email');
 
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 

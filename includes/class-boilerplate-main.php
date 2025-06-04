@@ -7,6 +7,8 @@ class Boilerplate_Main
         add_action('admin_menu', [$this, 'setup_admin_pages']);
         add_action('init', 'boilerplate_register_gutenberg_block');
         add_action('save_api_key', 'handle_save_api_key');
+        add_action('wp_ajax_boilerplate_submit_form', 'boilerplate_render_main_page');
+        add_action('wp_ajax_nopriv_boilerplate_submit_form', 'boilerplate_render_main_page');
     }
 
     public function setup_admin_pages()
